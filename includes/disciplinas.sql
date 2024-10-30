@@ -1,0 +1,8 @@
+CREATE DATABASE escola;
+
+USE escola;
+
+CREATE TABLE disciplinas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL
+);
